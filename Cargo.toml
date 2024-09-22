@@ -1,0 +1,12 @@
+[package]
+name = "goldelox-serial"
+version = "0.1.0"
+authors = ["Nick Rundle <nicholas.rundle@gmail.com>"]
+description = "Rust library for using serial communication with the 4D Systems Goldelox processor"
+repository = "https://github.com/nrundle/goldelox-serial-rust"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+embedded-io = "0.6.1"
+serialport = "4.5.0"
